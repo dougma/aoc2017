@@ -1,0 +1,9 @@
+{
+  "name": "advent-of-code-2017",
+  "version": "1.0.0",
+  "main": "01.js",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^2.6.2"
+  }
+}
