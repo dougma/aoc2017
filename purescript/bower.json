@@ -14,7 +14,8 @@
     "purescript-arrays": "^4.2.1",
     "purescript-maps": "^3.6.0",
     "purescript-maybe": "^3.0.0",
-    "purescript-tuples": "^4.1.0"
+    "purescript-tuples": "^4.1.0",
+    "purescript-node-fs": "^4.0.0"
   },
   "devDependencies": {
     "purescript-psci-support": "^3.0.0"
