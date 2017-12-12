@@ -41,7 +41,7 @@ countGarbage Garbage Garbage = 1
 countGarbage _ _ = 0
 
 step :: State -> Char -> State
-step { score: score, garbage: garbage, level: level, state: state } ch =
+step { score, garbage, level, state } ch =
     {
         score: score + scoreChange state ch level,
         garbage: garbage + countGarbage state next,
